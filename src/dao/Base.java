@@ -9,6 +9,7 @@ public class Base {
     private static final String password = DBConstants.password;
 
     /*数据库连接*/
+
     public static Connection getConnection() throws ClassNotFoundException {
         Connection connection = null;
         try {
